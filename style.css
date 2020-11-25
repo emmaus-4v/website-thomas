@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     background-color: #EEEEEE;  
     
-    color: #303030;
+    color: rgb(43, 43, 43);
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(25, 178, 189);
     text-align: center;
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -60,7 +60,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: rgb(43, 43, 43);
     overflow: hidden;
 }
 
@@ -77,13 +77,12 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(32, 32, 32);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(25, 178, 189);
 }
-
 
 
 
