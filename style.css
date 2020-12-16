@@ -5,14 +5,13 @@ html, body {
     padding: 0;
     background-color: #EEEEEE;  
     
-    color: rgb(43, 43, 43);
-    font: Verdana, Arial, Sans-Serif;
+    color: rgb(43, 43, 43);   
 }
 
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 900px;
     position: relative;
 }
 
@@ -23,8 +22,9 @@ article {
 
 
 header {
-    color: rgb(25, 178, 189);
+    color: rgb(255, 0, 0);
     text-align: center;
+
 }
 
 
@@ -36,9 +36,18 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+img.zweefLinks1 {
     float: left;
     margin-right: 15px;
+}
+
+img.zweefLinks2 {
+    float: left;
+    margin-right: 15px;
+}
+
+.clearFloat {
+    clear:both;
 }
 
 .smalltext {
@@ -46,7 +55,7 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: rgb(255, 0, 0), 135, 135);
     text-decoration: none;
 }
 
@@ -81,8 +90,18 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: rgb(25, 178, 189);
+    background-color: rgb(255, 0, 0);
 }
 
+/* Font */
+p {
+    font-family: 'ABeeZee';font-size: 16px;
+}
 
+li {
+    font-family: 'ABeeZee';font-size: 16px;
+}
 
+.Title {
+    font-family: 'Amaranth';font-size: 22px;
+}
