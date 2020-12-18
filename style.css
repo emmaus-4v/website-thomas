@@ -22,7 +22,7 @@ article {
 
 
 header {
-    color: rgb(255, 0, 0);
+    color: rgb(180, 0, 0);
     text-align: center;
 
 }
@@ -56,8 +56,9 @@ img.zweefLinks2 {
 
 a {
     color: rgb(255, 0, 0), 135, 135);
-    text-decoration: none;
+    text-decoration: none
 }
+
 
 a:hover {
     text-decoration: none;
@@ -94,14 +95,21 @@ nav li a.active {
 }
 
 /* Font */
-p {
-    font-family: 'ABeeZee';font-size: 16px;
+p, li, b, a {
+    font-family: 'ABeeZee';font-size: 15px;
 }
 
-li {
-    font-family: 'ABeeZee';font-size: 16px;
+h1 {
+    font-family: 'Amaranth';font-size: 32px;
 }
 
-.Title {
-    font-family: 'Amaranth';font-size: 22px;
+/* Animation */
+h1 {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
 }
